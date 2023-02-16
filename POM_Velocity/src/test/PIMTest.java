@@ -25,6 +25,6 @@ public class PIMTest extends CommonTest {
 	//	pimPage.setPimPageEmpId("0066");
 	//	pimPage.clickSearchBtn();
 	//	String verifyEmpIdAppeared = pimPage.getEmpIdFromSearchedResults("0066");
-		Assert.assertEquals(true, true);
+		Assert.assertEquals(false, false);
 	}
 }

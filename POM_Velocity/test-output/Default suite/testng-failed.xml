@@ -6,10 +6,12 @@
       <class name="test.PIMTest">
         <methods>
           <include name="login"/>
+          <include name="verifyPimPageTitle"/>
           <include name="tearDown"/>
           <include name="pageObjects"/>
           <include name="verifyEmpSearchEmpId"/>
           <include name="initBrowser"/>
+          <include name="verify1"/>
           <include name="logoutUser"/>
         </methods>
       </class> <!-- test.PIMTest -->
