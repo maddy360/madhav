@@ -27,4 +27,9 @@ public class PIMTest extends CommonTest {
 	//	String verifyEmpIdAppeared = pimPage.getEmpIdFromSearchedResults("0066");
 		Assert.assertEquals(true, true);
 	}
+	
+	@Test(priority = 5, groups = { "smoke", "regression" })
+	public void TestingGIT() {
+		Assert.assertEquals(true, true);
+	}
 }
